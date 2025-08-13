@@ -544,6 +544,8 @@ async def txt_handler(bot: Client, m: Message):
             res = "1280x720"
         elif raw_text2 == "1080":
             res = "1920x1080" 
+        elif raw_text2 == "2000":
+            res = "2560x1440"
         else: 
             res = "UN"
     except Exception:
@@ -560,11 +562,11 @@ async def txt_handler(bot: Client, m: Message):
         raw_textx = '/d'
     
     # Define watermark variable based on input
-    global watermark
-    if raw_textx == '/d':
-        watermark = "UG"
-    else:
-        watermark = raw_textx
+     global watermark
+     if raw_textx == '/d':
+         watermark = "UG"
+     else:
+         watermark = raw_textx
     
     await editable.edit(f"__**Enter the Credit Name or send /d\nOr Send **Admin,file prename**\nSeparate them with a comma (,)\n\n<blockquote><i>Example for caption only: Admin\nExample for both caption and file name: Admin,Prename</i></blockquote>**")
     try:
@@ -1103,6 +1105,8 @@ async def text_handler(bot: Client, m: Message):
             res = "1280x720"
         elif raw_text2 == "1080":
             res = "1920x1080" 
+            elif raw_text2 == "2000":
+            res = "2560x1440"
         else: 
             res = "UN"
     except Exception:
