@@ -8,7 +8,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "7872473343:AAGNfrMewYX6uhdcavYoioxOoECL
 
 CREDIT = os.environ.get("CREDIT", "UG Gandu")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "lund")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Technicalankit:Technicalankit@cluster0.dzl9fbr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 MONGO_URL = DATABASE_URL  # For auth system
 
@@ -59,4 +59,5 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
